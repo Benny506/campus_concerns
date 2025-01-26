@@ -1,0 +1,36 @@
+.full-screen-loading {
+    width: 45px;
+    aspect-ratio: 1;
+    color: #1352F1;
+    background: conic-gradient(currentColor 0 270deg,#0000 0);
+    border-radius: 50%;
+    animation: l14-0 4s infinite linear;
+  }
+  .full-screen-loading::before {
+    content: "";
+    display: block;
+    height: 50%;
+    width: 50%;
+    border-top-left-radius: 100px;
+    background: currentColor;
+    animation: l14 0.5s infinite alternate;
+  }
+  @keyframes l14-0 {
+      0%,24.99%  {transform: rotate(0deg)}
+      25%,49.99% {transform: rotate(90deg)}
+      50%,74.99% {transform: rotate(180deg)}
+      75%,100%   {transform: rotate(270deg)}
+  }
+  @keyframes l14 {
+      100%  {transform: translate(-10px,-10px)}
+  }
+
+
+
+
+
+/* initial load  */
+.initial-load-bg{
+  min-height: 100vh;
+  background-image: url('../../../../assets/images/bgs/auth-bg.png');
+}

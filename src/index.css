@@ -1,0 +1,74 @@
+.html, .body{
+  margin: 0;
+  padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-thumb {
+  background: #1352F1;
+}
+
+/* Handle */
+::-webkit-scrollbar-track {
+  background: #041643;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1352f194;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/fonts/poppins/poppins.ttf');
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('./assets/fonts/openSans/openSans.ttf');
+}
+
+@font-face {
+  font-family: SourceCodePro;
+  src: url('./assets/fonts/sourceCodePro/sourceCodePro.ttf');
+}
+
+@font-face {
+  font-family: Axiforma;
+  src: url('./assets/fonts/axiforma/Axiforma.otf');
+}
+
+input::placeholder{
+  color: #C8C8C8;
+  font-family: Axiforma;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 11.667px */
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.bg-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button, input, textarea{
+  border: none;
+  outline: none;
+}
+
+input:focus, textarea:focus{
+  outline: none;
+}

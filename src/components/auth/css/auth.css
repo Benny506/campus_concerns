@@ -1,0 +1,26 @@
+.auth-bg{
+    background-image: url("../../../assets/images/bgs/auth-bg.png");
+    min-height: 100vh;
+}
+.auth-input-field{
+    border-radius: 4px;
+    border: 0.667px solid #D7D7D7;
+    background: #FFF;  
+    padding: 14px;  
+    color: #000;
+    font-family: Axiforma;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+.auth-submit-btn{
+    color: #FFF;
+    font-family: Axiforma;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5.333px;
+    background-color: #1352F1; 
+    padding: 8.667px 20.333px;
+    text-align: center;   
+}
